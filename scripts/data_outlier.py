@@ -1,8 +1,9 @@
+# importing library
 import os
 import sys
 import pandas as pd
 import numpy as np
-    
+  # creating fix_outlier function  
 def fix_outlier(df, column):
     df[column] = np.where(df[column] > df[column].quantile(0.95), df[column].mode(),df[column])
 
