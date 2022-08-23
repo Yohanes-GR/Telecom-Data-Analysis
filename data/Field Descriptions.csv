@@ -1,0 +1,57 @@
+Fields,Description
+bearer id,xDr session identifier
+Dur. (ms),Total Duration of the xDR (in ms)
+Start,Start time of the xDR (first frame timestamp)
+Start ms,Milliseconds offset of start time for the xDR (first frame timestamp)
+End,End time of the xDR (last frame timestamp)
+End ms,Milliseconds offset of end time of the xDR (last frame timestamp)
+Dur. (s),Total Duration of the xDR (in s)
+IMSI,International Mobile Subscriber Identity
+MSISDN/Number,MS International PSTN/ISDN Number of mobile - customer number
+IMEI,International Mobile Equipment Identity
+Last Location Name,User location call name (2G/3G/4G) at the end of the bearer
+Avg RTT DL (ms),Average Round Trip Time measurement Downlink direction (msecond)
+Avg RTT UL (ms),Average Round Trip Time measurement Uplink direction (msecond)
+Avg Bearer TP DL (kbps),Average Bearer Throughput for Downlink (kbps) - based on BDR duration
+Avg Bearer TP UL (kbps),Average Bearer Throughput for uplink (kbps) - based on BDR duration
+TCP DL Retrans. Vol (Bytes),TCP volume of Downlink packets detected as retransmitted (bytes)
+TCP UL Retrans. Vol (Bytes),TCP volume of Uplink packets detected as retransmitted (bytes)
+DL TP < 50 Kbps (%),Duration ratio when Bearer Downlink Throughput < ….
+50 Kbps < DL TP < 250 Kbps (%),Duration ratio when Bearer Downlink Throughput range is …
+250 Kbps < DL TP < 1 Mbps (%),Duration ratio when Bearer Downlink Throughput range is …
+DL TP > 1 Mbps (%),Duration ratio when Bearer Downlink Throughput > ….
+UL TP < 10 Kbps (%),Duration ratio when Bearer Uplink Throughput < ….
+10 Kbps < UL TP < 50 Kbps (%),Duration ratio when Bearer Uplink Throughput range is …
+50 Kbps < UL TP < 300 Kbps (%),Duration ratio when Bearer Uplink Throughput range is …
+UL TP > 300 Kbps (%),Duration ratio when Bearer Uplink Throughput > ….
+HTTP DL (Bytes),HTTP data volume (in Bytes) received by the MS during this session
+HTTP UL (Bytes),HTTP data volume (in Bytes) sent by the MS during this session
+Activity Duration DL (ms),Activity Duration for downlink (ms) - excluding periods of inactivity > 500 ms
+Activity Duration UL (ms),Activity Duration for uplink (ms) - excluding periods of inactivity > 500 ms
+Dur. (ms).1,Total Duration of the xDR (in ms)
+Handset Manufacturer,Handset manufacturer 
+Handset Type,Handset type of the mobile device
+Nb of sec with 125000B < Vol DL,Number of seconds with IP Volume DL >
+Nb of sec with 1250B < Vol UL < 6250B,Number of seconds with IP Volume UL between …
+Nb of sec with 31250B < Vol DL < 125000B,Number of seconds with IP Volume DL between …
+Nb of sec with 37500B < Vol UL,Number of seconds with IP Volume UL >
+Nb of sec with 6250B < Vol DL < 31250B,Number of seconds with IP Volume DL between …
+Nb of sec with 6250B < Vol UL < 37500B,Number of seconds with IP Volume UL between …
+Nb of sec with Vol DL < 6250B,Number of seconds with IP Volume DL <
+Nb of sec with Vol UL < 1250B,Number of seconds with IP Volume UL <
+Social Media DL (Bytes),Social Media data volume (in Bytes) received by the MS during this session
+Social Media UL (Bytes),Social Media data volume (in Bytes) sent by the MS during this session
+YouTube DL (Bytes),YouTube data volume (in Bytes) received by the MS during this session
+YouTube UL (Bytes),YouTube data volume (in Bytes) sent by the MS during this session
+Netflix DL (Bytes),Netflix data volume (in Bytes) received by the MS during this session
+Netflix UL (Bytes),Netflix data volume (in Bytes) sent by the MS during this session
+Google DL (Bytes),Google data volume (in Bytes) Received by the MS during this session
+Google UL (Bytes),Google data volume (in Bytes) sent by the MS during this session
+Email DL (Bytes),Email data volume (in Bytes) Received by the MS during this session
+Email UL (Bytes),Email data volume (in Bytes) sent by the MS during this session
+Gaming DL (Bytes),Gaming data volume (in Bytes) Received by the MS during this session
+Gaming UL (Bytes),Gaming data volume (in Bytes) sent by the MS during this session
+Other DL,Other data volume (in Bytes) received by the MS during this session
+Other UL,Other data volume (in Bytes) sent by the MS during this session
+Total DL (Bytes),Data volume (in Bytes) received by the MS during this session (IP layer + overhead)
+Total UL (Bytes),Data volume (in Bytes) sent by the MS during this session (IP layer + overhead)
