@@ -1,6 +1,7 @@
+# importing library
 import pandas as pd
 import numpy as np
-
+# creating class
 class DataFrameCleaning():
     def __init__(self, df):
         self.df = df.copy()
