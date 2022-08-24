@@ -1,4 +1,4 @@
-name: Telecom CI action
+name: main
 
 on: [push,pull_request]
 
