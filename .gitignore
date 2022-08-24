@@ -1,12 +1,3 @@
-build/
-dist/
-*.egg-info/
-*.egg
-*.py[cod]
-__pycache__/
-*.so
-*~
-
-# due to using tox and pytest
-.tox
-.cache
+notebooks/.ipynb_checkpoints
+scripts/__pycache__
+models/.ipynb_checkpoints
