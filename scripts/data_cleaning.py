@@ -5,7 +5,7 @@ import numpy as np
 class DataFrameCleaning():
     def __init__(self, df):
         self.df = df.copy()
-        print('Automation in Action...!!!')
+        print('Automation in Action...Great!!!')
     
 
     def get_column_with_many_null(self):
