@@ -1,3 +1,5 @@
+import pickle
+from pydoc import Helper
 import sys
 import os
 import sys
@@ -134,9 +136,7 @@ def app():
                 '''
                 3D visualization of cluster
             ''')
-
-            plots.scatter3D(user_engagement, 'Total_Avg_TCP', "Total_Avg_RTT", 'Total_Avg_Bearer_TP', 'Cluster', interactive=True)
-
+            plots.scatter3D(user_experience, 'Total_Avg_TCP', "Total_Avg_RTT", 'Total_Avg_Bearer_TP', 'Cluster', interactive=True)
         st.warning(
             'Remember the cluster with the worst experience. we need that for satisfaction analysis')
         st.markdown(
@@ -144,7 +144,7 @@ def app():
             Save the model for satisfaction analysis
         ''')
         if st.button('Save CSV'):
-            helper.save_csv(user_experience,
+            Helper.save_csv(user_experience,
                             '../data/user_experiance.csv', index=True)
 
             with open("../models/user_experiance.pkl", "wb") as f:
