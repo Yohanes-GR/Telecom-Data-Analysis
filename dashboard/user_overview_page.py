@@ -17,7 +17,7 @@ def loadOriginalData():
 
 
 def loadPreprocessedData():
-    df = pd.read_csv("../data/cleaned_Telecom_data.csv")
+    df = pd.read_csv("../data/cleaned_dataset.csv")
     return df
 
 

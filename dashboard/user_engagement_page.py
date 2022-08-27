@@ -19,8 +19,8 @@ def loadCleanData():
 @st.cache
 def getEngagemetData():
     df = loadCleanData().copy()
-    user_engagement_df = df[['Customer_Id', 'Session_Frequency', 'Duration', 'Total_Data_Volume']].copy()
-    user_engagement = df.groupby(
+    user_engagement_data = df[['Customer_Id', 'Session_Frequency', 'Duration', 'Total_Data_Volume']].copy()
+    user_engagement = data.groupby(
         'Customer_Id').agg({'Session_Frequency': 'count', 'Duration': 'sum', 'Total_Data_Volume': 'sum'}) 
     return user_engagement
 

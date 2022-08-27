@@ -20,10 +20,10 @@ def loadCleanData():
 @st.cache
 def getExperienceDataFrame():
     df = loadCleanData().copy()
-    user_experience_df = df[[\
+    user_experience_data = df[[\
         "MSISDN_Number", "Total_Avg_RTT", "Total_Avg_Bearer_TP", "Total_Avg_TCP"]].copy() 
 
-    return user_experience_df
+    return user_experience_data
 
 @st.cache
 def getExperienceData():
